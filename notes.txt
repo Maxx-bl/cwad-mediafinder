@@ -1,0 +1,14 @@
+Valider code avec w3c
+
+Vos trois productions (site, rapport, diapos) doivent avoir une identité visuelle commune, avec au minimum :
+
+    Un nom et un sous-titre / slogan.
+    Une image qui servira de logo (pas forcément compliqué).
+    Deux couleurs majeures (que vous donnerez par code RGB / hexa).
+    Deux polices (par exemple : textes / titres).
+
+Charte graphique :
+#373F51 light black
+#e5e1ee lavender
+#fde68a light yellow
+#fca5a5 light red
