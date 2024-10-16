@@ -1,14 +1,62 @@
-Valider code avec w3c
+Rapport google doc : https://docs.google.com/document/d/1DzbNR3Cpl10OcVR17UIjBI8WXr6ZzFm0v60Kn5mbd2M/edit?usp=sharing
 
-Vos trois productions (site, rapport, diapos) doivent avoir une identité visuelle commune, avec au minimum :
+- Valider code avec w3c, si erreur ou avertissement, indiquer dans le rapport
+
+- Vos trois productions (site, rapport, diapos) doivent avoir une identité visuelle commune, avec au minimum :
 
     Un nom et un sous-titre / slogan.
     Une image qui servira de logo (pas forcément compliqué).
     Deux couleurs majeures (que vous donnerez par code RGB / hexa).
     Deux polices (par exemple : textes / titres).
 
-Charte graphique :
+
+
+- Charte graphique :
+
 #262b37 light black
 #e5e1ee lavender
 #ffcc00 light yellow
 #ff8567 light red
+
+
+
+- Navbar :
+
+la meme sur toutes les pages
+doit contenir le logo et le nom
+cliquer sur le logo renvoie a la page d'accueil
+
+
+
+- Page d'accueil
+
+texte argumente qui presente l'entreprise
+doit contenir grande version du logo
+doit contenir une video
+
+
+
+- Page Activite 
+
+au moins 3 activites
+Pour chaque :
+    Le nom ;
+    Une description de l'activité ;
+    Une image ou une icône ;
+    Au moins une info (prix, âge minimum...) hors du texte. 
+
+
+
+- Page contact
+
+    Des informations de contact (adresse, téléphone, mail - vous pouvez tout inventer).
+    Une carte pointant sur l'entreprise, en passant par un service externe (OpenStreetMaps ♡, Google Maps, Bing Maps...) C'est à vous d'aller vous renseigner sur leur site.
+    Un formulaire de contact qui permet au visiteur de réserver une activité à une certaine date ; vous devez choisir les éléments de formulaire utiles. 
+Le formulaire est factice
+
+
+- Pied de page
+
+	Le pied de page contient la liste des membres du projet, des liens vers votre rapport aux formats traitement de texte et au format pdf, et le logo de l'IUT.
+
+
