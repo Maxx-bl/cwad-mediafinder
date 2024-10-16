@@ -8,7 +8,7 @@ Vos trois productions (site, rapport, diapos) doivent avoir une identité visuel
     Deux polices (par exemple : textes / titres).
 
 Charte graphique :
-#373F51 light black
+#262b37 light black
 #e5e1ee lavender
-#fde68a light yellow
-#fca5a5 light red
+#ffcc00 light yellow
+#ff8567 light red
