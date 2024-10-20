@@ -20,9 +20,10 @@ nav a {
   font-size: 25px;
   color: #262b37;
   display: block;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 nav a:hover {
   color: #ff8567;
+  text-shadow: #262b37 0.2rem 0.2rem 0.5rem;
 }
