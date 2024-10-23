@@ -1,0 +1,15 @@
+body {
+  color: white;
+}
+
+main > h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+main form {
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(101, 75, 54), rgb(50, 37, 27));
+}
