@@ -27,3 +27,11 @@ nav a:hover {
   color: #ff8567;
   text-shadow: #262b37 0.2rem 0.2rem 0.5rem;
 }
+
+main {
+  margin-left: 15rem;
+}
+
+body main a {
+  color: red;
+}
