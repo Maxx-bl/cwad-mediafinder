@@ -12,6 +12,7 @@ header {
 }
 
 body {
+  background-image: url("../assets/imgs/bodyWallpaper.jpg");
   background-color: #262b37;
   height: 90vh;
   width: 100%;
@@ -27,16 +28,24 @@ nav {
   left: 0;
   background-color: #e5e1ee;
   overflow-x: hidden;
-  padding: 8px;
   transition: 0.2s;
+  background-image: url("../assets/imgs/navbarbg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav > .links-container {
+  margin: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 nav a {
-  margin: 15px 30px;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: #262b37;
+  color: white;
   display: block;
   transition: 0.1s;
 }
@@ -47,10 +56,24 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav a.MF-logo img {
-  transition: transform 0.2s, fill 0.2s;
+nav > .MF-logo-container {
+  background-color: black;
+  width: 30%;
+  height: 70px;
+  border-bottom-right-radius: 30px;
 }
 
-nav a.MF-logo img:hover {
+nav > .MF-logo-container a {
+  margin: 0;
+
+}
+
+nav > .MF-logo-container a img {
+  transition: transform 0.2s, fill 0.2s;
+  width: 68px;
+  height: 68px;
+}
+
+nav > .MF-logo-container a img:hover {
   transform: rotate(-90deg);
 }
