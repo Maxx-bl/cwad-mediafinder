@@ -1,44 +1,220 @@
 * {
-    color: black;
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #262b37;
+  height: 90vh;
+  width: 100%;
+}
+
+header {
+  padding: 18rem;
+  margin-bottom: 18rem;
+}
+
+header>div {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 4rem;
+  margin-top: 2rem;
+}
+
+header>div>h1 {
+  color: white;
+  font-size: 8rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+
+header>div>h2 {
+  margin-top: -4rem;
+  animation: subtitle 0.34s linear infinite
+}
+
+
+@keyframes subtitle-effect {
+  0% {
+    content: "C";
   }
-  
-  body {
-    background-color: #262b37;
-    height: 90vh;
-    width: 100%;
+
+  2% {
+    content: "Ch";
   }
-  
-  header > div {
-    background-color: #e5e1ee;
-    padding: 60px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 1px rgba(255, 255, 255, .4);
-    display:flex;
-    justify-content: center;
-    max-width: 60rem;
-    margin-left: 28%;
-    margin-top: 2rem;
+
+  4% {
+    content: "Che";
   }
-  
-  header > div > h1 {
-    font-size: 8rem;
-    text-shadow: 0 0 20px rgba(0, 0, 0, .15);
-    text-decoration: underline;
+
+  7% {
+    content: "Cher";
   }
-  
-  header > video {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+  9% {
+    content: "Cherc";
   }
+
+  12% {
+    content: "Cherch";
+  }
+
+  14% {
+    content: "Chercho";
+  }
+
+  17% {
+    content: "Cherchon";
+  }
+
+  19% {
+    content: "Cherchons";
+  }
+
+  21% {
+    content: "Cherchons e";
+  }
+
+  24% {
+    content: "Cherchons en";
+  }
+
+  26% {
+    content: "Cherchons ens";
+  }
+
+  28% {
+    content: "Cherchons ense";
+  }
+
+  30% {
+    content: "Cherchons ensem";
+  }
+
+  33% {
+    content: "Cherchons ensemb";
+  }
+
+  35% {
+    content: "Cherchons ensembl";
+  }
+
+  38% {
+    content: "Cherchons ensemble";
+  }
+
+  40% {
+    content: "Cherchons ensemble, ";
+  }
+
+  42% {
+    content: "Cherchons ensemble, d";
+  }
+
+  44% {
+    content: "Cherchons ensemble, dé";
+  }
+
+  47% {
+    content: "Cherchons ensemble, déc";
+  }
+
+  50% {
+    content: "Cherchons ensemble, déco";
+  }
+
+  52% {
+    content: "Cherchons ensemble, décou";
+  }
+
+  55% {
+    content: "Cherchons ensemble, découv";
+  }
+
+  57% {
+    content: "Cherchons ensemble, découvr";
+  }
+
+  60% {
+    content: "Cherchons ensemble, découvro";
+  }
+
+  62% {
+    content: "Cherchons ensemble, découvron";
+  }
+
+  65% {
+    content: "Cherchons ensemble, découvrons";
+  }
+
+  67% {
+    content: "Cherchons ensemble, découvrons e";
+  }
+
+  70% {
+    content: "Cherchons ensemble, découvrons en";
+  }
+
+  73% {
+    content: "Cherchons ensemble, découvrons ens";
+  }
+
+  77% {
+    content: "Cherchons ensemble, découvrons ense";
+  }
+
+  80% {
+    content: "Cherchons ensemble, découvrons ensem";
+  }
+
+  83% {
+    content: "Cherchons ensemble, découvrons ensemb";
+  }
+
+  94% {
+    content: "Cherchons ensemble, découvrons ensembl";
+  }
+
+  97% {
+    content: "Cherchons ensemble, découvrons ensemble";
+  }
+
+  100% {
+    content: "Cherchons ensemble, découvrons ensemble.";
+  }
+
+}
+
+header>video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 /*Section articles*/
 
-h2, p {
-  color:white;
+h2,
+p {
+  color: white;
 }
 
-article {
+.presentation {
+  display: flex;
+}
+
+.presentation article {
+  margin: 2rem;
+  border: solid 4px #e5e1ee;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  background-color: red;
+}
+
+.presentation article h2 {
+  text-decoration: underline;
+}
+
+.news article {
   border: 4mm ridge rgba(211, 220, 50, .6);
 }
