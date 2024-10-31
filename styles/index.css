@@ -1,18 +1,44 @@
-header > div {
-  background-color: #e5e1ee;
-  padding: 60px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 1px rgba(255, 255, 255, .4);
+* {
+    color: black;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    background-color: #262b37;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  header > div {
+    background-color: #e5e1ee;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 1px rgba(255, 255, 255, .4);
+    display:flex;
+    justify-content: center;
+    max-width: 60rem;
+    margin-left: 28%;
+    margin-top: 2rem;
+  }
+  
+  header > div > h1 {
+    font-size: 8rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    text-decoration: underline;
+  }
+  
+  header > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+/*Section articles*/
+
+h2, p {
+  color:white;
 }
 
-header > div > h1 {
-  font-size: 8rem;
-  text-shadow: 0 0 20px rgba(0, 0, 0, .15);
-  text-decoration: underline;
-}
-
-header > video {
-  position: absolute;
-  top: 0;
-  left: 0;
+article {
+  border: 4mm ridge rgba(211, 220, 50, .6);
 }

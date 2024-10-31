@@ -74,3 +74,11 @@ nav > .MF-logo-container a img {
 nav > .MF-logo-container a img:hover {
   transform: rotate(-90deg);
 }
+
+main {
+  margin-left: 15rem;
+}
+
+body main a {
+  color: red;
+}
