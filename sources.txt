@@ -1,5 +1,11 @@
+body:
+- background-image: https://unsplash.com/fr/s/photos/dark
+(1) L'image a été ensuite retouché sur Photoshop pour ajouter un floutage and du bruit pour permettre une meilleure lisibilité du texte.
+
 Side navbar
-https://www.w3schools.com/howto/howto_js_sidenav.asp
+- tuto implementation du navbar: https://www.w3schools.com/howto/howto_js_sidenav.asp
+- background-image: https://images.unsplash.com/photo-1708778002477-75611274f23d?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+même cas que (1)
 
 Chouette d'or
 https://www.bfmtv.com/societe/enigmes-trahisons-l-histoire-folle-de-la-chouette-d-or-la-plus-grande-chasse-au-tresor-de-france_GN-202410040535.html
