@@ -11,6 +11,7 @@ body {
 
 header {
   padding: 18rem;
+  padding-left: 20rem;
   padding-top: 14rem;
   margin-bottom: 18rem;
 }
@@ -57,29 +58,30 @@ header div h2 {
   50% { border-color: orange }
 }
 
+
 /*Section articles*/
 
-h2,
-p {
+.presentation h2, .presentation p {
   color: white;
 }
 
 .presentation {
   display: flex;
+  font-weight: bold;
 }
 
 .presentation article {
   margin: 2rem;
-  border: solid 4px #e5e1ee;
+  border: solid 4px #ffcc00;
   border-radius: 1rem;
   padding: 0.8rem;
-  background-color: red;
-}
-
-.presentation article h2 {
-  text-decoration: underline;
+  width: 100%;
 }
 
 .news article {
   border: 4mm ridge rgba(211, 220, 50, .6);
+}
+
+.news h2, .news p {
+  color: white;
 }
