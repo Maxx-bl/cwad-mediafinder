@@ -11,16 +11,13 @@ body {
 
 header {
   padding: 18rem;
+  padding-top: 14rem;
   margin-bottom: 18rem;
 }
 
 header>div {
-  padding: 60px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   max-height: 4rem;
-  margin-top: 2rem;
+  max-width: 38rem; /* typewritter effect width */
 }
 
 header>div>h1 {
@@ -29,167 +26,35 @@ header>div>h1 {
   text-shadow: 0 0 20px rgba(0, 0, 0, .15);
 }
 
-header>div>h2 {
-  margin-top: -4rem;
-  animation: subtitle 0.34s linear infinite
-}
-
-
-@keyframes subtitle-effect {
-  0% {
-    content: "C";
-  }
-
-  2% {
-    content: "Ch";
-  }
-
-  4% {
-    content: "Che";
-  }
-
-  7% {
-    content: "Cher";
-  }
-
-  9% {
-    content: "Cherc";
-  }
-
-  12% {
-    content: "Cherch";
-  }
-
-  14% {
-    content: "Chercho";
-  }
-
-  17% {
-    content: "Cherchon";
-  }
-
-  19% {
-    content: "Cherchons";
-  }
-
-  21% {
-    content: "Cherchons e";
-  }
-
-  24% {
-    content: "Cherchons en";
-  }
-
-  26% {
-    content: "Cherchons ens";
-  }
-
-  28% {
-    content: "Cherchons ense";
-  }
-
-  30% {
-    content: "Cherchons ensem";
-  }
-
-  33% {
-    content: "Cherchons ensemb";
-  }
-
-  35% {
-    content: "Cherchons ensembl";
-  }
-
-  38% {
-    content: "Cherchons ensemble";
-  }
-
-  40% {
-    content: "Cherchons ensemble, ";
-  }
-
-  42% {
-    content: "Cherchons ensemble, d";
-  }
-
-  44% {
-    content: "Cherchons ensemble, dé";
-  }
-
-  47% {
-    content: "Cherchons ensemble, déc";
-  }
-
-  50% {
-    content: "Cherchons ensemble, déco";
-  }
-
-  52% {
-    content: "Cherchons ensemble, décou";
-  }
-
-  55% {
-    content: "Cherchons ensemble, découv";
-  }
-
-  57% {
-    content: "Cherchons ensemble, découvr";
-  }
-
-  60% {
-    content: "Cherchons ensemble, découvro";
-  }
-
-  62% {
-    content: "Cherchons ensemble, découvron";
-  }
-
-  65% {
-    content: "Cherchons ensemble, découvrons";
-  }
-
-  67% {
-    content: "Cherchons ensemble, découvrons e";
-  }
-
-  70% {
-    content: "Cherchons ensemble, découvrons en";
-  }
-
-  73% {
-    content: "Cherchons ensemble, découvrons ens";
-  }
-
-  77% {
-    content: "Cherchons ensemble, découvrons ense";
-  }
-
-  80% {
-    content: "Cherchons ensemble, découvrons ensem";
-  }
-
-  83% {
-    content: "Cherchons ensemble, découvrons ensemb";
-  }
-
-  94% {
-    content: "Cherchons ensemble, découvrons ensembl";
-  }
-
-  97% {
-    content: "Cherchons ensemble, découvrons ensemble";
-  }
-
-  100% {
-    content: "Cherchons ensemble, découvrons ensemble.";
-  }
-
-}
-
 header>video {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+header div h2 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(30, end) infinite alternate-reverse,
+    blink-caret .8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
 
 /*Section articles*/
