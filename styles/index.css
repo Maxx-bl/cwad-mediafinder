@@ -10,58 +10,95 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 25rem;
+  height: 25rem;
+  animation: upDown 5s infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-45px);
+  }
+
+  50% {
+    transform: translateY(45px);
+  }
+
+  100% {
+    transform: translateY(-45px);
+  }
+}
+
+.main-titles {
   padding: 18rem;
   padding-left: 20rem;
   padding-top: 14rem;
   margin-bottom: 18rem;
 }
 
-header>div {
+.main-titles {
   max-height: 4rem;
-  max-width: 38rem; /* typewritter effect width */
+  max-width: 38rem;
+  /* typewritter effect width */
 }
 
-header>div>h1 {
+.main-titles>h1 {
   color: white;
   font-size: 8rem;
   text-shadow: 0 0 20px rgba(0, 0, 0, .15);
 }
 
-header>video {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-header div h2 {
+.main-titles h2 {
   color: #fff;
   font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
     typing 5s steps(30, end) infinite alternate-reverse,
     blink-caret .8s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
 
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange
+  }
+}
 
 /*Section articles*/
 
-.presentation h2, .presentation p {
+.presentation h2,
+.presentation p {
   color: white;
 }
 
@@ -78,10 +115,42 @@ header div h2 {
   width: 100%;
 }
 
-.news article {
-  border: 4mm ridge rgba(211, 220, 50, .6);
+/* News */
+
+/* .news article {
+  margin-top: 10rem;
+  border: 4px solid #ffcc00;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
-.news h2, .news p {
+.news h2,
+.news p {
   color: white;
+} */
+
+.news article {
+  background-color: #ffcc00;
+  margin-top: 10rem;
+  border: 4px solid #ffcc00;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.news .firstsec {
+  display:flex;
+}
+
+.firstsec div {
+  padding: 1rem;
+}
+
+#chouette {
+  width: 20rem;
+  height: 15rem;
+}
+
+.news h2,
+.news p {
+  color: black;
 }
