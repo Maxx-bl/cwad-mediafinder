@@ -13,10 +13,8 @@ Rapport google doc : https://docs.google.com/document/d/1DzbNR3Cpl10OcVR17UIjBI8
 
 - Charte graphique :
 
-#262b37 light black
-#e5e1ee lavender
-#ffcc00 light yellow
-#ff8567 light red
+#ffcc00 yellow
+#ffffff white
 
 
 
