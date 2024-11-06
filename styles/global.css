@@ -16,6 +16,7 @@ body {
   background-color: #262b37;
   height: 90vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -80,4 +81,26 @@ main {
 
 body main a {
   color: #ffcc00;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  display:flex;
+  border-top: solid #820142 6px;
+  margin-left: 15rem;
+  margin-right: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+footer img {
+  max-width: 150px;
+  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: 18rem;
+}
+
+footer p, footer p a {
+  color:white;
 }
