@@ -85,7 +85,7 @@ body main a {
 
 footer {
   margin-top: 2rem;
-  padding: 1rem;
+  padding: .4rem;
   display:flex;
   border-top: solid #820142 6px;
   margin-left: 15rem;
@@ -95,7 +95,7 @@ footer {
 }
 
 footer img {
-  max-width: 150px;
+  max-width: 100px;
   justify-self: flex-end;
   margin-left: auto;
   margin-right: 18rem;
