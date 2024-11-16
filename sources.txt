@@ -19,3 +19,14 @@ https://css-tricks.com/snippets/css/typewriter-effect/
 
 Google map
 https://www.maps.ie/create-google-map/
+
+global background-image
+https://unsplash.com/fr/photos/un-gros-plan-dun-telephone-portable-avec-un-fond-noir-Li56AhRlcI8
+(modifié avec photoshop en ajoutant du blur and du bruit)
+
+Polices:
+Comment inclure des polices customisées sur CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+Inter: https://fonts.google.com/specimen/Inter
+Cramps: https://www.fontspace.com/cramps-font-f78890
+
+# Parler du version control system (GIT)

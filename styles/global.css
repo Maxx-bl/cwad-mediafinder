@@ -5,6 +5,16 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+::selection {
+  color: #ffcc00;
+  background-color: #0033FF;
+}
+
+header {
+  margin-left: 15rem;
+  padding: 15px 30px;
+}
+
 main {
   margin-left: 15rem;
   padding: 15px 30px;
@@ -12,8 +22,9 @@ main {
 
 body {
   background-image: url("../assets/imgs/bodyWallpaper.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #262b37;
+  background-color: #0a0d09;
   height: 90vh;
   width: 100%;
   overflow-x: hidden;
@@ -29,7 +40,9 @@ nav {
   left: 0;
   background-color: #e5e1ee;
   overflow-x: hidden;
-  background-image: url("../assets/imgs/navbarbg.jpg");
+  /* background-image: url("../assets/imgs/navbarbg.jpg"); */
+  background-color: rgba(0, 0, 0, .6);
+  backdrop-filter: blur(4px);
   background-size: cover;
   background-position: center;
 }
@@ -81,6 +94,10 @@ main {
 
 body main a {
   color: #ffcc00;
+}
+
+body main a:hover {
+  color: blue;
 }
 
 footer {
