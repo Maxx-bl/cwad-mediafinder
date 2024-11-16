@@ -64,7 +64,8 @@
 }
 
 @font-face {
-  font-family: "TCHeadlinerPrint";
-  src: url("../assets/fonts/TCHeadlinerPrint.otf") format("opentype");
+  font-family: "Cramps";
+  src: url("../assets/fonts/Cramps-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
 }
