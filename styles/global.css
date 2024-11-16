@@ -16,6 +16,7 @@ body {
   background-color: #262b37;
   height: 90vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -51,7 +52,6 @@ nav a {
 nav a:hover {
   color: #ff653e;
   text-shadow: 0 0 2px rgba(255, 101, 62, 0.15);
-  text-decoration: underline;
 }
 
 nav > .MF-logo-container {
@@ -80,5 +80,27 @@ main {
 }
 
 body main a {
-  color: red;
+  color: #ffcc00;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: .4rem;
+  display:flex;
+  border-top: solid #820142 6px;
+  margin-left: 15rem;
+  margin-right: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+footer img {
+  max-width: 100px;
+  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: 18rem;
+}
+
+footer p, footer p a {
+  color:white;
 }

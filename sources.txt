@@ -14,3 +14,8 @@ https://www.francetvinfo.fr/decouverte/cinq-questions-sur-la-chouette-d-or-retro
 Activité
 - FIND THE ALTERNATES: https://cdn-uploads.gameblog.fr/img/news/416282_63e38e3a07ce7.jpg
 - CATCH THE FLAG: https://www.google.com/search?q=flag
+typewriter effect
+https://css-tricks.com/snippets/css/typewriter-effect/
+
+Google map
+https://www.maps.ie/create-google-map/

@@ -14,7 +14,7 @@ main > section {
   transform: rotate(.2deg);
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 280px;
 }
 
 .activity-container > .visible-activity-card {
@@ -59,11 +59,12 @@ main > section {
 
 .visible-activity-card > div:last-child h2 {
   font-size: 2rem;
+  font-weight: 800;
   margin: 15px 0;
 }
 
 .visible-activity-card > div:last-child p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -83,4 +84,5 @@ main > section {
 
 .details-container > div p {
   font-weight: bold;
+  font-size: 1rem;
 }

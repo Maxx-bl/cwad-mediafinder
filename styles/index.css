@@ -1,44 +1,164 @@
 * {
-    color: black;
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #262b37;
+  height: 90vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 25rem;
+  height: 25rem;
+  animation: upDown 5s infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-45px);
   }
-  
-  body {
-    background-color: #262b37;
-    height: 90vh;
+
+  50% {
+    transform: translateY(45px);
+  }
+
+  100% {
+    transform: translateY(-45px);
+  }
+}
+
+.main-titles {
+  padding: 18rem;
+  padding-left: 20rem;
+  padding-top: 14rem;
+  margin-bottom: 18rem;
+}
+
+.main-titles {
+  max-height: 4rem;
+  max-width: 38rem;
+  /* typewritter effect width */
+}
+
+.main-titles>h1 {
+  color: white;
+  font-size: 8rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+
+.main-titles h2 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 10s steps(30, end) infinite alternate,
+    blink-caret .8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  35% {
     width: 100%;
   }
-  
-  header > div {
-    background-color: #e5e1ee;
-    padding: 60px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 1px rgba(255, 255, 255, .4);
-    display:flex;
-    justify-content: center;
-    max-width: 60rem;
-    margin-left: 28%;
-    margin-top: 2rem;
+
+  65% {
+    width: 100%;
   }
-  
-  header > div > h1 {
-    font-size: 8rem;
-    text-shadow: 0 0 20px rgba(0, 0, 0, .15);
-    text-decoration: underline;
+
+  to {
+    width: 0;
   }
-  
-  header > video {
-    position: absolute;
-    top: 0;
-    left: 0;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
   }
+
+  50% {
+    border-color: orange
+  }
+}
 
 /*Section articles*/
 
-h2, p {
-  color:white;
+.presentation h2,
+.presentation p {
+  color: white;
 }
 
-article {
-  border: 4mm ridge rgba(211, 220, 50, .6);
+.presentation {
+  display: flex;
+  font-weight: bold;
+}
+
+.presentation article {
+  margin: 2rem;
+  border: solid 4px #ffcc00;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+/* News */
+
+/* .news article {
+  margin-top: 10rem;
+  border: 4px solid #ffcc00;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.news h2,
+.news p {
+  color: white;
+} */
+
+.news article {
+  background-color: #ffcc00;
+  margin-top: 10rem;
+  border: 4px solid #ffcc00;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.news .firstsec {
+  display:flex;
+}
+
+.firstsec div {
+  padding: 1rem;
+}
+
+#chouette {
+  width: 20rem;
+  height: 15rem;
+}
+
+.news h2,
+.news p {
+  color: black;
 }
