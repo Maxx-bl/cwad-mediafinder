@@ -120,6 +120,10 @@ header img {
   margin: 150px auto;
 }
 
+.news a {
+  color: black;
+}
+
 .news article {
   display: grid;
   grid-template-columns: repeat(8, 1fr);

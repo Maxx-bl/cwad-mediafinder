@@ -92,6 +92,10 @@ main {
   margin-left: 15rem;
 }
 
-main a:hover {
+body main a {
+  color: #ffcc00;
+}
+
+body main a:hover {
   color: blue;
 }
