@@ -11,9 +11,10 @@ main {
 }
 
 body {
-  background-image: url("../assets/imgs/bodyWallpaper.jpg");
+  background-image: url("../assets/imgs/bodyWallpaper2.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #262b37;
+  background-color: #0a0d09;
   height: 90vh;
   width: 100%;
 }

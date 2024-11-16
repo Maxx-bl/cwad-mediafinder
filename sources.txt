@@ -1,9 +1,13 @@
 Side navbar
 https://www.w3schools.com/howto/howto_js_sidenav.asp
 
-Chouette d'or 
+Chouette d'or
 https://www.bfmtv.com/societe/enigmes-trahisons-l-histoire-folle-de-la-chouette-d-or-la-plus-grande-chasse-au-tresor-de-france_GN-202410040535.html
 https://www.francetvinfo.fr/decouverte/cinq-questions-sur-la-chouette-d-or-retrouvee-apres-plus-de-trente-ans-de-chasse-au-tresor_6817916.html
 
 typewriter effect
 https://css-tricks.com/snippets/css/typewriter-effect/
+
+global background-image
+https://unsplash.com/fr/photos/un-gros-plan-dun-telephone-portable-avec-un-fond-noir-Li56AhRlcI8
+(modifié avec photoshop en ajoutant du blur and du bruit)

@@ -12,6 +12,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 header img {
@@ -35,16 +36,7 @@ header img {
 }
 
 .main-titles {
-  padding: 18rem;
-  padding-left: 20rem;
-  padding-top: 14rem;
-  margin-bottom: 18rem;
-}
-
-.main-titles {
-  max-height: 4rem;
-  max-width: 38rem;
-  /* typewritter effect width */
+  margin: 200px 30px
 }
 
 .main-titles>h1 {
@@ -78,11 +70,11 @@ header img {
   }
 
   35% {
-    width: 100%;
+    width: 70%
   }
 
   65% {
-    width: 100%;
+    width: 70%;
   }
 
   to {
@@ -112,15 +104,31 @@ header img {
 
 .presentation {
   display: flex;
-  font-weight: bold;
+  flex-direction: column;
 }
 
 .presentation article {
   margin: 2rem;
+  background-color: rgba(23, 15, 0, 0.5);
+  backdrop-filter: blur(4px);
   border: solid 4px #ffcc00;
-  border-radius: 1rem;
-  padding: 0.8rem;
-  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 204, 0, .10);
+}
+
+.presentation article > h2 {
+  margin: 0;
+  padding: 10px;
+  font-weight: 600;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 3px solid rgb(255, 123, 90);
+  background-color: rgba(207, 41, 0, .5);
+  text-wrap: nowrap;
+}
+
+.presentation article > p {
+  padding: 5px 20px;
 }
 
 /* News */
