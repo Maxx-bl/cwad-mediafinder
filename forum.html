@@ -7,17 +7,14 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/forum.css" />
-    <link rel="icon" href="./assets/imgs/MFLogoRED.png">
+    <link rel="icon" href="./assets/imgs/MFLogoRED.png" />
     <title>Document</title>
   </head>
   <body>
     <nav>
       <div class="MF-logo-container">
         <a href="./index.html">
-          <img
-            src="./assets/imgs/MFLogo.png"
-            alt="Logo de MediaFinder"
-          />
+          <img src="./assets/imgs/MFLogo.png" alt="Logo de MediaFinder" />
         </a>
       </div>
       <div class="links-container">
@@ -27,23 +24,66 @@
         <a href="contact.html">Contact</a>
       </div>
     </nav>
-    <div class="keyboard">
-      <span class="key">M</span>
-      <span class="key">e</span>
-      <span class="key">d</span>
-      <span class="key">i</span>
-      <span class="key">a</span>
-      <span class="key">F</span>
-      <span class="key">i</span>
-      <span class="key">n</span>
-      <span class="key">d</span>
-      <span class="key">e</span>
-      <span class="key">r</span>
-    </div>
-
+    <main>
+      <section>
+        <h1>Forum</h1>
+        <form method="post">
+          <div id="username-container">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div id="subject-container">
+            <label for="subject">Objet</label>
+            <input type="text" name="subject" id="subject" />
+          </div>
+          <div id="message-container">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="6"></textarea>
+          </div>
+          <button type="submit" disabled>Envoyer</button>
+        </form>
+      </section>
+      <section>
+        <div class="forum">
+          <div class="post-container">
+            <div class="head-message">
+              <h3>Arda Metin</h3>
+              <h3>Est-ce que les chouttes ont des crampes?</h3>
+            </div>
+            <p class="message-content">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="post-container">
+            <div class="head-message">
+              <h3>Vincent Kanagasundaram</h3>
+              <h3>On peut gagner des robux gratuit?</h3>
+            </div>
+            <p class="message-content">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. <br /><br />It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+              <br /><br />It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
-      <p>MediaFinder - 2024, Vincent Kanagasundaram, Maxandre Berson-Lefuel, <a href="">Rapport de projet</a></p>
-      <img src="./assets/imgs/iut.png" alt="logo iut">
+      <p>
+        MediaFinder - 2024, Vincent Kanagasundaram, Maxandre Berson-Lefuel,
+        <a href="">Rapport de projet</a>
+      </p>
+      <img src="./assets/imgs/iut.png" alt="logo iut" />
     </footer>
   </body>
 </html>
