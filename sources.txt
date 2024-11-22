@@ -29,4 +29,7 @@ Comment inclure des polices customisées sur CSS: https://developer.mozilla.org/
 Inter: https://fonts.google.com/specimen/Inter
 Cramps: https://www.fontspace.com/cramps-font-f78890
 
+Contact > téléphone:
+svg de la flèche pointant vers la droite: https://pictogrammers.com/library/mdi/icon/arrow-right-bottom/
+
 # Parler du version control system (GIT)

@@ -7,11 +7,167 @@ body {
 main > h1 {
   font-size: 4rem;
   margin: 0;
+  margin-top: 20px;
 }
 
-main form {
-  margin: 30px auto;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+section > .h2-container {
+  position: relative;
+}
+
+section > .h2-container h2:first-child {
+  color: #ffbda9;
+  margin: 0;
+}
+
+section > .h2-container h2:last-child {
+  position: absolute;
+  margin: 0;
+  color: black;
+  top: 2px;
+  z-index: -1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+form > .form-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  font-weight: 500;
+  box-sizing: border-box;
   border-radius: 10px;
-  background: linear-gradient(45deg, rgb(101, 75, 54), rgb(50, 37, 27));
+}
+
+.form-container > .input-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.form-container > .input-row > div,
+.form-container > div:not(.input-row) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.form-container input,
+.form-container select {
+  background-color: rgba(255, 219, 219, 0.75);
+  border: 0;
+  border-radius: 2px;
+  height: 20px;
+}
+
+form > button[type="submit"] {
+  width: 100px;
+  background-color: black;
+  border: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px 160px;
+  border-radius: 4px;
+  border: 1px solid #ff4c20;
+  cursor: pointer;
+}
+
+form > button[type="submit"]:hover {
+  background-color: #ff4c20;
+  color: black;
+  border: 1px solid black;
+}
+
+.infos-container label {
+  font-weight: 500;
+}
+
+.infos-container svg {
+  position: relative;
+  fill: white;
+  height: 30px;
+  width: 30px;
+  top: -4px;
+}
+
+.infos-container > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.infos-container > .tel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0;
+}
+
+.infos-container > div > label {
+  font-size: 1.3rem;
+}
+
+.tel-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tel-container > label {
+  margin-bottom: 16px;
+}
+
+.tel-container > div > label {
+  margin-right: 10px;
+}
+
+.tel-container p {
+  margin: 0;
+}
+
+.tel-container svg {
+  margin-right: 12px;
+}
+
+.infos-container > .instruction-arrivee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.instruction-arrivee-container > p {
+  margin: 0;
+}
+
+.infos-and-map-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.infos-and-map-container > iframe {
+  border-radius: 8px;
+  border: 2px solid #FFCC00;
 }
