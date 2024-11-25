@@ -1,26 +1,34 @@
 @charset "utf-8";
 
 * {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 ::selection {
   color: #ffcc00;
-  background-color: #0033FF;
+  background-color: #0033ff;
 }
 
+main,
 header {
   margin-left: 15rem;
   padding: 15px 30px;
 }
 
-main {
-  margin-left: 15rem;
-  padding: 15px 30px;
-}
-
 body {
+  margin: 0;
   background-image: url("../assets/imgs/bodyWallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +49,7 @@ nav {
   background-color: #e5e1ee;
   overflow-x: hidden;
   /* background-image: url("../assets/imgs/navbarbg.jpg"); */
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   background-size: cover;
   background-position: center;
@@ -79,7 +87,9 @@ nav > .MF-logo-container a {
 }
 
 nav > .MF-logo-container a img {
-  transition: transform 0.2s, fill 0.2s;
+  transition:
+    transform 0.2s,
+    fill 0.2s;
   width: 68px;
   height: 68px;
 }
@@ -102,8 +112,8 @@ body main a:hover {
 
 footer {
   margin-top: 2rem;
-  padding: .4rem;
-  display:flex;
+  padding: 0.4rem;
+  display: flex;
   border-top: solid #820142 6px;
   margin-left: 15rem;
   margin-right: 2rem;
@@ -118,6 +128,64 @@ footer img {
   margin-right: 18rem;
 }
 
-footer p, footer p a {
-  color:white;
+footer p,
+footer p a {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  main,
+  header,
+  footer {
+    margin-left: 10rem;
+    padding: 15px;
+  }
+
+  nav {
+    width: 10rem;
+  }
+
+  nav > .links-container {
+    gap: 13px;
+    margin: 20px;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  nav > .MF-logo-container a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  nav > .MF-logo-container {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main,
+  header,
+  footer {
+    margin-top: 3.5rem;
+    margin-left: 0;
+  }
+
+  nav {
+    height: 3.5rem;
+    width: 100%;
+  }
+
+  nav > .links-container {
+    position: relative;
+    flex-direction: row;
+    float: right;
+    top: -45px;
+  }
+
+  footer img {
+    margin-right: 2rem;
+  }
 }

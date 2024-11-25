@@ -169,5 +169,41 @@ form > button[type="submit"]:hover {
 
 .infos-and-map-container > iframe {
   border-radius: 8px;
-  border: 2px solid #FFCC00;
+  border: 2px solid #ffcc00;
+}
+
+@media screen and (max-width: 1600px) {
+  .infos-and-map-container > iframe {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .infos-and-map-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .infos-and-map-container > iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form-container > .input-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infos-container > .adresse-container,
+  .infos-container > .email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+
+  .infos-container > .email-container {
+    margin-top: 20px;
+  }
 }

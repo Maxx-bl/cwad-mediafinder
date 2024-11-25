@@ -109,6 +109,7 @@ form > div textarea {
 
 .post-container > .head-message > h3 {
   margin: 0;
+  overflow-x: scroll;
 }
 
 .post-container > .head-message > h3:first-child {
@@ -120,4 +121,11 @@ form > div textarea {
 .post-container > .head-message > h3:last-child {
   padding-left: 10px;
   border-left: 1px solid white;
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 }
