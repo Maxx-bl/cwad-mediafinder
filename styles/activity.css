@@ -42,6 +42,10 @@ section > h1 {
   height: 100%;
 }
 
+.visible-activity-card {
+  cursor: pointer;
+}
+
 .visible-activity-card > div:first-child {
   height: 100%;
   box-shadow: 0 0 7.6px rgba(0, 0, 0, 0.25);
@@ -83,6 +87,18 @@ section > h1 {
 .visible-activity-card > div:last-child p {
   font-size: 1.2rem;
   margin: 0;
+}
+
+.visible-activity-card > div:first-child img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.1s;
+}
+
+.visible-activity-card > div:first-child img:hover {
+  transform: scale(1.05) rotate(0.5deg);
 }
 
 .details-container {
