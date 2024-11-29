@@ -100,7 +100,7 @@ form > button[type="submit"]:hover {
   border: 1px solid black;
 }
 
-.infos-container label {
+.infos-container p:first-child {
   font-weight: 500;
 }
 
@@ -125,7 +125,7 @@ form > button[type="submit"]:hover {
   gap: 0;
 }
 
-.infos-container > div > label {
+.infos-container > div > p:first-child {
   font-size: 1.3rem;
 }
 
@@ -135,11 +135,11 @@ form > button[type="submit"]:hover {
   align-items: center;
 }
 
-.tel-container > label {
+.tel-container > p:first-child {
   margin-bottom: 16px;
 }
 
-.tel-container > div > label {
+.tel-container > div > p:first-child {
   margin-right: 10px;
 }
 

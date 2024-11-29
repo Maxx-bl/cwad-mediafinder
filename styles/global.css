@@ -126,6 +126,7 @@ footer img {
   justify-self: flex-end;
   margin-left: auto;
   margin-right: 18rem;
+  object-fit: contain;
 }
 
 footer p,
@@ -176,6 +177,7 @@ footer p a {
   nav {
     height: 3.5rem;
     width: 100%;
+    overflow-y: hidden;
   }
 
   nav > .links-container {

@@ -109,7 +109,7 @@ form > div textarea {
 
 .post-container > .head-message > h3 {
   margin: 0;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .post-container > .head-message > h3:first-child {
